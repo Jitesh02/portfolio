@@ -22,7 +22,7 @@ export const projects = [
   {
     name: "NewsPitara",
     githubUrl: "https://github.com/Jitesh02/BookStore",
-    image: "../../assets/art.png",
+    image: "../../assets/newspitara.png",
     youtube: true,
     youtubeUrl: "https://www.youtube.com/watch?v=LbkvSDPV3eg&t=719s",
     category: ["react"],
