@@ -53,7 +53,7 @@ const Skills = () => {
             <span>node.js</span>
           </div>
           <div className="bg-light-bg p-8  rounded-md text-center flex flex-col items-center shadow-sm justify-center">
-            <Image src="/assets/expressjs.png" width={100} height={100} alt="express" className="mb-10 pt-12" />
+            <Image src="/assets/Expressjs.png" width={100} height={100} alt="express" className="mb-10 pt-12" />
             <span>Express.js</span>
           </div>
           <div className="bg-light-bg p-8  rounded-md text-center flex flex-col items-center shadow-sm justify-center">
@@ -61,11 +61,11 @@ const Skills = () => {
             <span>MongoDB</span>
           </div>
           <div className="bg-light-bg p-8  rounded-md text-center flex flex-col items-center shadow-sm justify-center">
-            <Image src="/assets/sql.png" width={100} height={100} alt="postresql" className="mb-4" />
+            <Image src="/assets/SQL.png" width={100} height={100} alt="postresql" className="mb-4" />
             <span>PostgreSQL</span>
           </div>
           <div className="bg-light-bg p-8  rounded-md text-center flex flex-col items-center shadow-sm justify-center">
-            <Image src="/assets/Git.png" width={100} height={100} alt="git" className="mb-2" />
+            <Image src="/assets/git.png" width={100} height={100} alt="git" className="mb-2" />
             <span>Git</span>
           </div>
         </div>
