@@ -69,7 +69,7 @@ Enhancing proficiency in modern web technologies.`,
                                     initial={{ opacity: 0, x: -100 }}
                                     transition={{ duration: 1 }}
                                     viewport={{ once: true }}
-                                    className="w-full lg:w-1/4">
+                                    className="w-3/4 md:w-1/4">
                                     <p className="mb-2 text-md text-neutral-400">{experience.year}</p>
                                 </motion.div>
                                 <motion.div
@@ -83,11 +83,11 @@ Enhancing proficiency in modern web technologies.`,
                                         <span className=" text-purple-100">{experience.company}</span>
                                     </h6>
                                     <p className="mb-4 text-neutral-400">{experience.description}</p>
-                                    <div>
+                                    <div className='grid grid-cols-3 md:grid-cols-5 gap-2 '>
                                         {experience.technologies.map((tech, index) => (
                                             <span
                                                 key={index}
-                                                className="mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-800"
+                                                className=" mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-xs md:text-sm font-medium text-purple-800"
                                             >
                                                 {tech}
                                             </span>

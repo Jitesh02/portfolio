@@ -58,11 +58,11 @@ const Hero = () => {
           transition={{ duration: 0.8, delay: 1.2 }}
           whileHover={{ scale: 1.3 }}>
           {/* <Image src="/assets/jitesh.png" width={550} height={500} alt="Antonio Rogers" className="z-10 " /> */}
-          <img src="https://images.squarespace-cdn.com/content/v1/5769fc401b631bab1addb2ab/1541580611624-TE64QGKRJG8SWAIUS7NS/ke17ZwdGBToddI8pDm48kPoswlzjSVMM-SxOp7CV59BZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PI6FXy8c9PWtBlqAVlUS5izpdcIXDZqDYvprRqZ29Pw0o/coding-freak.gif" width={400} alt="Jitesh" className="rounded-xl "/>
+          <img src="https://images.squarespace-cdn.com/content/v1/5769fc401b631bab1addb2ab/1541580611624-TE64QGKRJG8SWAIUS7NS/ke17ZwdGBToddI8pDm48kPoswlzjSVMM-SxOp7CV59BZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PI6FXy8c9PWtBlqAVlUS5izpdcIXDZqDYvprRqZ29Pw0o/coding-freak.gif" width={400} alt="Jitesh" className="rounded-xl z-10" />
         </MotionDiv>
       </div>
 
-      <ul className="bg-squares">
+      {/* <ul className="bg-squares">
         <li></li>
         <li></li>
         <li></li>
@@ -72,7 +72,7 @@ const Hero = () => {
         <li></li>
         <li></li>
         <li></li>
-      </ul>
+      </ul> */}
     </section>
   );
 };
