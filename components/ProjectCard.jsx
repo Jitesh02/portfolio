@@ -10,8 +10,10 @@ const ProjectCard = ({ name, githubUrl, image, youtube, deployed, youtubeUrl, pr
       animate={{ opacity: 1 }}
       initial={{ opacity: 0 }}
       exit={{ opacity: 0 }}
+      whileHover={{ scale: 1.05 }}
+      // whileTap={{ scale: 0.9 }}
 
-      className='mb-4 p-4 border border-gray-200 rounded-lg shadow-md bg-light-bg'>
+      className='mb-4 p-4 border border-gray-200 rounded-lg shadow-md bg-light-bg '>
       <img src={image} alt={`${name} Image`} className='w-full h-auto mb-2 rounded' />
       <h3>{name}</h3>
       <div className="flex gap-2 items-center w-full">

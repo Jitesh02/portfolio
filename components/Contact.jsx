@@ -134,6 +134,8 @@ import { AiFillTwitterSquare, AiFillLinkedin, AiFillInstagram, AiFillGithub } fr
 import { FaDev } from "react-icons/fa";
 import emailjs from "@emailjs/browser";
 import { useRef } from "react";
+import { motion } from "framer-motion"
+
 
 const Contact = () => {
   const ref = useRef(null);
@@ -153,7 +155,7 @@ const Contact = () => {
       });
   };
   return (
-    <div className="w-full h-fit px-[40px]  py-10 md:py-20 max-xs:px-[20px] relative bg-light-bg" id="contact">
+    <div className="w-full h-fit px-[40px]  py-10 md:py-20 max-xs:px-[20px] relative " id="contact">
       <div className="max-w-[1250px] mx-auto">
         <div className="grid lg:grid-cols-2 grid-cols-1 gap-6">
           <div>
@@ -167,35 +169,44 @@ const Contact = () => {
                 Contact Me
               </p>
             </div>
-            <p className="text-dark-blue">
+            <p className="text-white">
               I'm currently avaliable to take on new projects, so feel free to send me a message about anything that you
               want to run past me. I'm also avaliable for hire as well.
             </p>
-            <p className="text-dark-blue mt-12">Email me at</p>
+            <p className="text-white mt-12">Email me at</p>
             <h4>
-              <a href="#" className="text-lg font-semibold text-dark-blue">
+              <a href="mailto:jiteshtripathi16480@gmail.com" className="text-lg font-semibold text-white">
                 jiteshtripathi16480@gmail.com
               </a>
             </h4>
             <div className="mt-12">
               <div className="flex flex-col gap-2">
-                <h5 className="text-dark-blue">Socials</h5>
+                <h5 className="text-white">Socials</h5>
                 <div className="flex gap-5">
-                  <a href="https://github.com/Jitesh02" target="_blank" className="text-3xl text-dark-blue">
+                  <motion.a
+                    whileHover={{ scale: 1.3 }}
+                    whileTap={{ scale: 0.9 }}
+                    href="https://github.com/Jitesh02" target="_blank" className="text-3xl text-white">
                     <AiFillGithub />
-                  </a>
-                  <a href="http://linkedin.com/in/jitesh-tripathi/" className="text-3xl text-dark-blue">
+                  </motion.a>
+                  <motion.a
+                    whileHover={{ scale: 1.3 }}
+                    whileTap={{ scale: 0.9 }}
+                    href="http://linkedin.com/in/jitesh-tripathi/" target="_blank" className="text-3xl text-white">
                     <AiFillLinkedin />
-                  </a>
-                  <a href="https://www.instagram.com/" className="text-3xl text-dark-blue">
+                  </motion.a>
+                  <motion.a
+                    whileHover={{ scale: 1.3 }}
+                    whileTap={{ scale: 0.9 }}
+                    href="https://www.instagram.com/" target="_blank" className="text-3xl text-white">
                     <AiFillInstagram />
-                  </a>
-                  <a href="https://twitter.com/" className="text-3xl text-dark-blue">
+                  </motion.a>
+                  <motion.a
+                    whileHover={{ scale: 1.3 }}
+                    whileTap={{ scale: 0.9 }}
+                    href="https://twitter.com/" target="_blank" className="text-3xl text-white">
                     <AiFillTwitterSquare />
-                  </a>
-                  {/* <a href="#" className="text-3xl text-dark-blue">
-                    <FaDev />
-                  </a> */}
+                  </motion.a>
                 </div>
               </div>
             </div>
@@ -209,7 +220,7 @@ const Contact = () => {
                   id="name"
                   name="name"
                   placeholder="Your name"
-                  className="w-full text-gray-700 border border-slate-200 rounded py-3 px-4 mb-4 leading-tight focus:outline-dark-red"
+                  className="w-full text-black border border-slate-200 rounded py-3 px-4 mb-4 leading-tight focus:outline-dark-red"
                 />
                 <input
                   type="email"
@@ -217,17 +228,17 @@ const Contact = () => {
                   name="email"
                   placeholder="Your email"
                   autoComplete="email"
-                  className="w-full text-gray-700 border border-slate-200 rounded py-3 px-4 mb-4 leading-tight focus:outline-dark-red"
+                  className="w-full text-black border border-slate-200 rounded py-3 px-4 mb-4 leading-tight focus:outline-dark-red"
                 />
                 <input
                   type="text"
                   id="subject"
                   name="subject"
                   placeholder="Subject"
-                  className="w-full text-gray-700 border border-slate-200 rounded py-3 px-4 mb-4 leading-tight focus:outline-dark-red"
+                  className="w-full text-black border border-slate-200 rounded py-3 px-4 mb-4 leading-tight focus:outline-dark-red"
                 />
                 <textarea
-                  className="w-full text-gray-700 border border-slate-200 rounded py-3 px-4 mb-4 leading-tight focus:outline-dark-red"
+                  className="w-full text-black border border-slate-200 rounded py-3 px-4 mb-4 leading-tight focus:outline-dark-red"
                   id="message"
                   name="message"
                   rows="7"

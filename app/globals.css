@@ -24,7 +24,7 @@ html {
   }
 
   .hero-container {
-    @apply w-full lg:h-screen h-fit bg-light-bg relative px-[40px] py-10 max-xs:px-[20px];
+    @apply w-full lg:h-screen h-fit  relative px-[40px] py-10 max-xs:px-[20px];
   }
 
   .hero-content-container {

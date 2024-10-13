@@ -6,6 +6,7 @@ import ProjectCard from "./ProjectCard";
 import { AnimatePresence, motion } from "framer-motion";
 
 
+
 const Projects = () => {
   const [activeCategory, setActiveCategory] = useState("all");
   const [filtered, setFiltered] = useState([]);
@@ -16,8 +17,8 @@ const Projects = () => {
   };
 
   return (
-    <div className="w-full h-fit px-[40px] py-10 max-xs:px-[20px] relative bg-white" id="projects">
-      <div className="max-w-[1250px] m-auto">
+    <div className="w-full h-fit px-[40px] py-10 max-xs:px-[20px] relative " id="projects">
+      <div className="max-w-[1250px] m-auto border-b border-neutral-900 pb-8">
         <div className="inline-block">
           <p className="section-title">
             <span className="mb-1">

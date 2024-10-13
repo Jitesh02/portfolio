@@ -11,12 +11,12 @@ const TopMenu = () => {
 
 
   return (
-    <div className="px-[40px] bg-light-bg py-4 z-10 max-xs:px-[20px]" id="home">
+    <div className="px-[40px]  py-4 z-10 max-xs:px-[20px]" id="home">
       <div className="top-menu">
         <div className="flex justify-between items-center w-full md:hidden">
           <div className="flex gap-10 w-full">
             <Link href={"/"}>
-              <h1 className="font-bold text-3xl text-dark-red">Jitesh Tripathi</h1>
+              <h1 className="font-bold text-3xl text-white">Jitesh Tripathi</h1>
             </Link>
           </div>
 
@@ -29,7 +29,7 @@ const TopMenu = () => {
           <div className="flex md:gap-10 flex-col md:flex-row">
             <div className="flex gap-1 items-center text-sm font-bold">
               <MdEmail />
-              <span className="text-dark-blue">jiteshtripathi16480@gmail.com</span>
+              <span className="text-white">jiteshtripathi16480@gmail.com</span>
             </div>
           </div>
 
