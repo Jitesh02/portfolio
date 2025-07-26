@@ -166,6 +166,26 @@ const Skills = () => {
             <Image src="/assets/git.png" width={50} height={50} alt="git" className="mb-2" />
             <span className='text-white'>Git</span>
           </motion.div>
+          <motion.div
+            variants={iconVariants(2.5)}
+            initial="initial"
+            animate="animate"
+            whileHover="whileHover"
+            whileTap="whileTap"
+            className=" p-3  rounded-3xl border-2 border-neutral-800 text-center flex flex-col items-center shadow-sm justify-center">
+            <Image src="/assets/rest-api_logo.svg" width={50} height={50} alt="git" className="mb-2 bg-white rounded-xl" />
+            <span className='text-white'>APIs</span>
+          </motion.div>
+          <motion.div
+            variants={iconVariants(2.5)}
+            initial="initial"
+            animate="animate"
+            whileHover="whileHover"
+            whileTap="whileTap"
+            className=" p-3  rounded-3xl border-2 border-neutral-800 text-center flex flex-col items-center shadow-sm justify-center">
+            <Image src="/assets/AWS_logo.svg" width={50} height={50} alt="git" className="mb-2" />
+            <span className='text-white'>AWS</span>
+          </motion.div>
         </div>
       </div>
     </section>

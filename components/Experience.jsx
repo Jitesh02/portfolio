@@ -9,7 +9,7 @@ const Experience = () => {
             role: "Software Engineer",
             company: "BluEnt",
             description: `Developing....`,
-            technologies: ["Javascript", "React.js", "Node.js", "APIs", "MySQL"],
+            technologies: ["Javascript", "React.js", "Node.js", "APIs", "MySQL", "AWS"],
         },
         {
             year: "Jan 2024 - Mar 2024",
